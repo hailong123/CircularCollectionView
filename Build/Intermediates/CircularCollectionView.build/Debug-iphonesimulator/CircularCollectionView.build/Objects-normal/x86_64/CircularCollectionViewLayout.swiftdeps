@@ -1,0 +1,808 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CircularCollectionViewLayoutAttributes"
+- "CircularCollectionViewLayout"
+provides-nominal:
+- "C22CircularCollectionView38CircularCollectionViewLayoutAttributes"
+- "C22CircularCollectionView28CircularCollectionViewLayout"
+provides-member:
+- ["C22CircularCollectionView38CircularCollectionViewLayoutAttributes", ""]
+- ["C22CircularCollectionView28CircularCollectionViewLayout", ""]
+provides-dynamic-lookup:
+- "anchorPoint"
+- "angle"
+- "angleAtExtreme"
+- "anglePerItem"
+- "anlge"
+- "attributesList"
+- "collectionViewContentSize"
+- "copy"
+- "itemSize"
+- "layoutAttributesClass"
+- "layoutAttributesForElements"
+- "layoutAttributesForItem"
+- "prepare"
+- "radius"
+- "shouldInvalidateLayout"
+- "targetContentOffset"
+depends-top-level:
+- !private "*"
+- !private "+"
+- !private "-"
+- !private "..."
+- !private "/"
+- !private "<"
+- !private ">"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CGFloat"
+- "CGPoint"
+- "CGRect"
+- "CGSize"
+- "CastingPrecedence"
+- "CircularCollectionViewLayout"
+- "CircularCollectionViewLayoutAttributes"
+- "IndexPath"
+- !private "Int"
+- "NSZone"
+- "Swift"
+- "TernaryPrecedence"
+- "UICollectionViewLayout"
+- "UICollectionViewLayoutAttributes"
+- !private "atan"
+- !private "atan2"
+- !private "ceil"
+- !private "floor"
+- !private "min"
+- !private "round"
+depends-member:
+- !private ["Ps16AbsoluteValuable", "init"]
+- !private ["Ps9AnyObject", "CGFloat"]
+- ["Ps9AnyObject", "CGPoint"]
+- ["Ps9AnyObject", "CGSize"]
+- ["Ps9AnyObject", "CircularCollectionViewLayoutAttributes"]
+- !private ["Ps9AnyObject", "IndexPath"]
+- !private ["Ps9AnyObject", "Int"]
+- !private ["Ps9AnyObject", "anchorPoint"]
+- !private ["Ps9AnyObject", "angle"]
+- !private ["Ps9AnyObject", "angleAtExtreme"]
+- !private ["Ps9AnyObject", "anglePerItem"]
+- !private ["Ps9AnyObject", "anlge"]
+- !private ["Ps9AnyObject", "atan"]
+- !private ["Ps9AnyObject", "atan2"]
+- !private ["Ps9AnyObject", "attributesList"]
+- !private ["Ps9AnyObject", "bounds"]
+- !private ["Ps9AnyObject", "ceil"]
+- !private ["Ps9AnyObject", "center"]
+- !private ["Ps9AnyObject", "collectionView"]
+- !private ["Ps9AnyObject", "collectionViewContentSize"]
+- !private ["Ps9AnyObject", "contentOffset"]
+- !private ["Ps9AnyObject", "copy"]
+- !private ["Ps9AnyObject", "floor"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "invalidateLayout"]
+- !private ["Ps9AnyObject", "itemSize"]
+- !private ["Ps9AnyObject", "min"]
+- !private ["Ps9AnyObject", "numberOfItems"]
+- !private ["Ps9AnyObject", "prepare"]
+- !private ["Ps9AnyObject", "radius"]
+- !private ["Ps9AnyObject", "round"]
+- !private ["Ps9AnyObject", "size"]
+- !private ["Ps9AnyObject", "transform"]
+- !private ["Ps9AnyObject", "zIndex"]
+- ["Ps9AnyObject", ""]
+- ["Sa", "init"]
+- !private ["Sa", "subscript"]
+- ["Ps23BidirectionalCollection", "init"]
+- !private ["Ps23BidirectionalCollection", "map"]
+- !private ["Ps23BidirectionalCollection", "row"]
+- !private ["Ps23BidirectionalCollection", "subscript"]
+- !private ["Ps19BinaryFloatingPoint", "init"]
+- !private ["Ps17BitwiseOperations", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSo15CALayerDelegate", "bounds"]
+- !private ["PSo15CALayerDelegate", "contentOffset"]
+- !private ["PSo15CALayerDelegate", "numberOfItems"]
+- !private ["VSC17CGAffineTransform", "rotated"]
+- !private ["V12CoreGraphics7CGFloat", "init"]
+- ["VSC7CGPoint", "init"]
+- !private ["VSC7CGPoint", "x"]
+- !private ["VSC6CGRect", "height"]
+- !private ["VSC6CGRect", "midY"]
+- !private ["VSC6CGRect", "width"]
+- !private ["VSC6CGSize", "height"]
+- ["VSC6CGSize", "init"]
+- !private ["VSC6CGSize", "width"]
+- !private ["Ps7CVarArg", "CGFloat"]
+- ["Ps7CVarArg", "CGPoint"]
+- ["Ps7CVarArg", "CGSize"]
+- ["Ps7CVarArg", "CircularCollectionViewLayoutAttributes"]
+- !private ["Ps7CVarArg", "IndexPath"]
+- !private ["Ps7CVarArg", "Int"]
+- !private ["Ps7CVarArg", "anchorPoint"]
+- !private ["Ps7CVarArg", "angle"]
+- !private ["Ps7CVarArg", "angleAtExtreme"]
+- !private ["Ps7CVarArg", "anglePerItem"]
+- !private ["Ps7CVarArg", "anlge"]
+- !private ["Ps7CVarArg", "atan"]
+- !private ["Ps7CVarArg", "atan2"]
+- !private ["Ps7CVarArg", "attributesList"]
+- !private ["Ps7CVarArg", "bounds"]
+- !private ["Ps7CVarArg", "ceil"]
+- !private ["Ps7CVarArg", "center"]
+- !private ["Ps7CVarArg", "collectionView"]
+- !private ["Ps7CVarArg", "collectionViewContentSize"]
+- !private ["Ps7CVarArg", "contentOffset"]
+- !private ["Ps7CVarArg", "copy"]
+- !private ["Ps7CVarArg", "floor"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "invalidateLayout"]
+- !private ["Ps7CVarArg", "itemSize"]
+- !private ["Ps7CVarArg", "min"]
+- !private ["Ps7CVarArg", "numberOfItems"]
+- !private ["Ps7CVarArg", "prepare"]
+- !private ["Ps7CVarArg", "radius"]
+- !private ["Ps7CVarArg", "round"]
+- !private ["Ps7CVarArg", "size"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["Ps7CVarArg", "transform"]
+- !private ["Ps7CVarArg", "zIndex"]
+- ["Ps7CVarArg", ""]
+- ["C22CircularCollectionView28CircularCollectionViewLayout", "Bool"]
+- ["C22CircularCollectionView28CircularCollectionViewLayout", "CGFloat"]
+- ["C22CircularCollectionView28CircularCollectionViewLayout", "CGPoint"]
+- ["C22CircularCollectionView28CircularCollectionViewLayout", "CGRect"]
+- ["C22CircularCollectionView28CircularCollectionViewLayout", "CGSize"]
+- ["C22CircularCollectionView28CircularCollectionViewLayout", "CircularCollectionViewLayoutAttributes"]
+- ["C22CircularCollectionView28CircularCollectionViewLayout", "IndexPath"]
+- !private ["C22CircularCollectionView28CircularCollectionViewLayout", "Int"]
+- ["C22CircularCollectionView28CircularCollectionViewLayout", "Swift"]
+- ["C22CircularCollectionView28CircularCollectionViewLayout", "UICollectionViewLayoutAttributes"]
+- ["C22CircularCollectionView28CircularCollectionViewLayout", "angleAtExtreme"]
+- ["C22CircularCollectionView28CircularCollectionViewLayout", "anglePerItem"]
+- ["C22CircularCollectionView28CircularCollectionViewLayout", "anlge"]
+- !private ["C22CircularCollectionView28CircularCollectionViewLayout", "atan"]
+- !private ["C22CircularCollectionView28CircularCollectionViewLayout", "atan2"]
+- ["C22CircularCollectionView28CircularCollectionViewLayout", "attributesList"]
+- !private ["C22CircularCollectionView28CircularCollectionViewLayout", "ceil"]
+- !private ["C22CircularCollectionView28CircularCollectionViewLayout", "collectionView"]
+- ["C22CircularCollectionView28CircularCollectionViewLayout", "collectionViewContentSize"]
+- ["C22CircularCollectionView28CircularCollectionViewLayout", "deinit"]
+- !private ["C22CircularCollectionView28CircularCollectionViewLayout", "floor"]
+- ["C22CircularCollectionView28CircularCollectionViewLayout", "init"]
+- !private ["C22CircularCollectionView28CircularCollectionViewLayout", "invalidateLayout"]
+- ["C22CircularCollectionView28CircularCollectionViewLayout", "itemSize"]
+- ["C22CircularCollectionView28CircularCollectionViewLayout", "layoutAttributesClass"]
+- ["C22CircularCollectionView28CircularCollectionViewLayout", "layoutAttributesForElements"]
+- ["C22CircularCollectionView28CircularCollectionViewLayout", "layoutAttributesForItem"]
+- !private ["C22CircularCollectionView28CircularCollectionViewLayout", "min"]
+- ["C22CircularCollectionView28CircularCollectionViewLayout", "prepare"]
+- ["C22CircularCollectionView28CircularCollectionViewLayout", "radius"]
+- !private ["C22CircularCollectionView28CircularCollectionViewLayout", "round"]
+- ["C22CircularCollectionView28CircularCollectionViewLayout", "shouldInvalidateLayout"]
+- ["C22CircularCollectionView28CircularCollectionViewLayout", "targetContentOffset"]
+- ["C22CircularCollectionView38CircularCollectionViewLayoutAttributes", "CGFloat"]
+- ["C22CircularCollectionView38CircularCollectionViewLayoutAttributes", "CGPoint"]
+- !private ["C22CircularCollectionView38CircularCollectionViewLayoutAttributes", "CircularCollectionViewLayoutAttributes"]
+- !private ["C22CircularCollectionView38CircularCollectionViewLayoutAttributes", "Int"]
+- ["C22CircularCollectionView38CircularCollectionViewLayoutAttributes", "NSZone"]
+- ["C22CircularCollectionView38CircularCollectionViewLayoutAttributes", "anchorPoint"]
+- ["C22CircularCollectionView38CircularCollectionViewLayoutAttributes", "angle"]
+- !private ["C22CircularCollectionView38CircularCollectionViewLayoutAttributes", "center"]
+- ["C22CircularCollectionView38CircularCollectionViewLayoutAttributes", "copy"]
+- ["C22CircularCollectionView38CircularCollectionViewLayoutAttributes", "deinit"]
+- ["C22CircularCollectionView38CircularCollectionViewLayoutAttributes", "init"]
+- !private ["C22CircularCollectionView38CircularCollectionViewLayoutAttributes", "size"]
+- !private ["C22CircularCollectionView38CircularCollectionViewLayoutAttributes", "transform"]
+- !private ["C22CircularCollectionView38CircularCollectionViewLayoutAttributes", "zIndex"]
+- !private ["Vs11ClosedRange", "map"]
+- ["Ps10Collection", "init"]
+- !private ["Ps10Collection", "map"]
+- !private ["Ps10Collection", "row"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "row"]
+- !private ["Vs20CountableClosedRange", "map"]
+- !private ["Ps28CustomDebugStringConvertible", "CGFloat"]
+- ["Ps28CustomDebugStringConvertible", "CGPoint"]
+- ["Ps28CustomDebugStringConvertible", "CGSize"]
+- ["Ps28CustomDebugStringConvertible", "CircularCollectionViewLayoutAttributes"]
+- !private ["Ps28CustomDebugStringConvertible", "IndexPath"]
+- !private ["Ps28CustomDebugStringConvertible", "Int"]
+- !private ["Ps28CustomDebugStringConvertible", "anchorPoint"]
+- !private ["Ps28CustomDebugStringConvertible", "angle"]
+- !private ["Ps28CustomDebugStringConvertible", "angleAtExtreme"]
+- !private ["Ps28CustomDebugStringConvertible", "anglePerItem"]
+- !private ["Ps28CustomDebugStringConvertible", "anlge"]
+- !private ["Ps28CustomDebugStringConvertible", "atan"]
+- !private ["Ps28CustomDebugStringConvertible", "atan2"]
+- !private ["Ps28CustomDebugStringConvertible", "attributesList"]
+- !private ["Ps28CustomDebugStringConvertible", "bounds"]
+- !private ["Ps28CustomDebugStringConvertible", "ceil"]
+- !private ["Ps28CustomDebugStringConvertible", "center"]
+- !private ["Ps28CustomDebugStringConvertible", "collectionView"]
+- !private ["Ps28CustomDebugStringConvertible", "collectionViewContentSize"]
+- !private ["Ps28CustomDebugStringConvertible", "contentOffset"]
+- !private ["Ps28CustomDebugStringConvertible", "copy"]
+- !private ["Ps28CustomDebugStringConvertible", "floor"]
+- !private ["Ps28CustomDebugStringConvertible", "height"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "invalidateLayout"]
+- !private ["Ps28CustomDebugStringConvertible", "itemSize"]
+- !private ["Ps28CustomDebugStringConvertible", "map"]
+- !private ["Ps28CustomDebugStringConvertible", "midY"]
+- !private ["Ps28CustomDebugStringConvertible", "min"]
+- !private ["Ps28CustomDebugStringConvertible", "numberOfItems"]
+- !private ["Ps28CustomDebugStringConvertible", "prepare"]
+- !private ["Ps28CustomDebugStringConvertible", "radius"]
+- !private ["Ps28CustomDebugStringConvertible", "round"]
+- !private ["Ps28CustomDebugStringConvertible", "row"]
+- !private ["Ps28CustomDebugStringConvertible", "size"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "transform"]
+- !private ["Ps28CustomDebugStringConvertible", "width"]
+- !private ["Ps28CustomDebugStringConvertible", "x"]
+- !private ["Ps28CustomDebugStringConvertible", "zIndex"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "height"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "midY"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "width"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "x"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "height"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "map"]
+- !private ["Ps17CustomReflectable", "midY"]
+- !private ["Ps17CustomReflectable", "row"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps17CustomReflectable", "width"]
+- !private ["Ps17CustomReflectable", "x"]
+- !private ["Ps23CustomStringConvertible", "CGFloat"]
+- ["Ps23CustomStringConvertible", "CGPoint"]
+- ["Ps23CustomStringConvertible", "CGSize"]
+- ["Ps23CustomStringConvertible", "CircularCollectionViewLayoutAttributes"]
+- !private ["Ps23CustomStringConvertible", "IndexPath"]
+- !private ["Ps23CustomStringConvertible", "Int"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "anchorPoint"]
+- !private ["Ps23CustomStringConvertible", "angle"]
+- !private ["Ps23CustomStringConvertible", "angleAtExtreme"]
+- !private ["Ps23CustomStringConvertible", "anglePerItem"]
+- !private ["Ps23CustomStringConvertible", "anlge"]
+- !private ["Ps23CustomStringConvertible", "atan"]
+- !private ["Ps23CustomStringConvertible", "atan2"]
+- !private ["Ps23CustomStringConvertible", "attributesList"]
+- !private ["Ps23CustomStringConvertible", "bounds"]
+- !private ["Ps23CustomStringConvertible", "ceil"]
+- !private ["Ps23CustomStringConvertible", "center"]
+- !private ["Ps23CustomStringConvertible", "collectionView"]
+- !private ["Ps23CustomStringConvertible", "collectionViewContentSize"]
+- !private ["Ps23CustomStringConvertible", "contentOffset"]
+- !private ["Ps23CustomStringConvertible", "copy"]
+- !private ["Ps23CustomStringConvertible", "floor"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "invalidateLayout"]
+- !private ["Ps23CustomStringConvertible", "itemSize"]
+- !private ["Ps23CustomStringConvertible", "map"]
+- !private ["Ps23CustomStringConvertible", "min"]
+- !private ["Ps23CustomStringConvertible", "numberOfItems"]
+- !private ["Ps23CustomStringConvertible", "prepare"]
+- !private ["Ps23CustomStringConvertible", "radius"]
+- !private ["Ps23CustomStringConvertible", "round"]
+- !private ["Ps23CustomStringConvertible", "row"]
+- !private ["Ps23CustomStringConvertible", "size"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "transform"]
+- !private ["Ps23CustomStringConvertible", "zIndex"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "CGFloat"]
+- ["Ps9Equatable", "CGPoint"]
+- ["Ps9Equatable", "CGSize"]
+- ["Ps9Equatable", "CircularCollectionViewLayoutAttributes"]
+- !private ["Ps9Equatable", "IndexPath"]
+- !private ["Ps9Equatable", "Int"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "anchorPoint"]
+- !private ["Ps9Equatable", "angle"]
+- !private ["Ps9Equatable", "angleAtExtreme"]
+- !private ["Ps9Equatable", "anglePerItem"]
+- !private ["Ps9Equatable", "anlge"]
+- !private ["Ps9Equatable", "atan"]
+- !private ["Ps9Equatable", "atan2"]
+- !private ["Ps9Equatable", "attributesList"]
+- !private ["Ps9Equatable", "bounds"]
+- !private ["Ps9Equatable", "ceil"]
+- !private ["Ps9Equatable", "center"]
+- !private ["Ps9Equatable", "collectionView"]
+- !private ["Ps9Equatable", "collectionViewContentSize"]
+- !private ["Ps9Equatable", "contentOffset"]
+- !private ["Ps9Equatable", "copy"]
+- !private ["Ps9Equatable", "floor"]
+- !private ["Ps9Equatable", "height"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "invalidateLayout"]
+- !private ["Ps9Equatable", "itemSize"]
+- !private ["Ps9Equatable", "map"]
+- !private ["Ps9Equatable", "midY"]
+- !private ["Ps9Equatable", "min"]
+- !private ["Ps9Equatable", "numberOfItems"]
+- !private ["Ps9Equatable", "prepare"]
+- !private ["Ps9Equatable", "radius"]
+- !private ["Ps9Equatable", "rotated"]
+- !private ["Ps9Equatable", "round"]
+- !private ["Ps9Equatable", "row"]
+- !private ["Ps9Equatable", "size"]
+- !private ["Ps9Equatable", "transform"]
+- !private ["Ps9Equatable", "width"]
+- !private ["Ps9Equatable", "x"]
+- !private ["Ps9Equatable", "zIndex"]
+- ["Ps9Equatable", ""]
+- ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps25ExpressibleByArrayLiteral", "row"]
+- !private ["Ps25ExpressibleByArrayLiteral", "subscript"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps25ExpressibleByFloatLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps13FloatingPoint", "init"]
+- !private ["Ps8Hashable", "CGFloat"]
+- ["Ps8Hashable", "CGPoint"]
+- ["Ps8Hashable", "CGSize"]
+- ["Ps8Hashable", "CircularCollectionViewLayoutAttributes"]
+- !private ["Ps8Hashable", "IndexPath"]
+- !private ["Ps8Hashable", "Int"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "anchorPoint"]
+- !private ["Ps8Hashable", "angle"]
+- !private ["Ps8Hashable", "angleAtExtreme"]
+- !private ["Ps8Hashable", "anglePerItem"]
+- !private ["Ps8Hashable", "anlge"]
+- !private ["Ps8Hashable", "atan"]
+- !private ["Ps8Hashable", "atan2"]
+- !private ["Ps8Hashable", "attributesList"]
+- !private ["Ps8Hashable", "bounds"]
+- !private ["Ps8Hashable", "ceil"]
+- !private ["Ps8Hashable", "center"]
+- !private ["Ps8Hashable", "collectionView"]
+- !private ["Ps8Hashable", "collectionViewContentSize"]
+- !private ["Ps8Hashable", "contentOffset"]
+- !private ["Ps8Hashable", "copy"]
+- !private ["Ps8Hashable", "floor"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "invalidateLayout"]
+- !private ["Ps8Hashable", "itemSize"]
+- !private ["Ps8Hashable", "min"]
+- !private ["Ps8Hashable", "numberOfItems"]
+- !private ["Ps8Hashable", "prepare"]
+- !private ["Ps8Hashable", "radius"]
+- !private ["Ps8Hashable", "round"]
+- !private ["Ps8Hashable", "row"]
+- !private ["Ps8Hashable", "size"]
+- !private ["Ps8Hashable", "transform"]
+- !private ["Ps8Hashable", "zIndex"]
+- ["Ps8Hashable", ""]
+- !private ["V10Foundation9IndexPath", "init"]
+- !private ["V10Foundation9IndexPath", "row"]
+- !private ["Si", "init"]
+- !private ["Ps7Integer", "init"]
+- !private ["Ps17IntegerArithmetic", "init"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps10MirrorPath", "init"]
+- ["Ps17MutableCollection", "init"]
+- !private ["Ps17MutableCollection", "row"]
+- !private ["Ps17MutableCollection", "subscript"]
+- !private ["PSo8NSCoding", "CGFloat"]
+- !private ["PSo8NSCoding", "CGPoint"]
+- ["PSo8NSCoding", "CGSize"]
+- ["PSo8NSCoding", "CircularCollectionViewLayoutAttributes"]
+- !private ["PSo8NSCoding", "IndexPath"]
+- !private ["PSo8NSCoding", "Int"]
+- !private ["PSo8NSCoding", "angleAtExtreme"]
+- !private ["PSo8NSCoding", "anglePerItem"]
+- !private ["PSo8NSCoding", "anlge"]
+- !private ["PSo8NSCoding", "atan"]
+- !private ["PSo8NSCoding", "atan2"]
+- !private ["PSo8NSCoding", "attributesList"]
+- !private ["PSo8NSCoding", "bounds"]
+- !private ["PSo8NSCoding", "ceil"]
+- !private ["PSo8NSCoding", "collectionView"]
+- !private ["PSo8NSCoding", "collectionViewContentSize"]
+- !private ["PSo8NSCoding", "contentOffset"]
+- !private ["PSo8NSCoding", "floor"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "invalidateLayout"]
+- !private ["PSo8NSCoding", "itemSize"]
+- !private ["PSo8NSCoding", "min"]
+- !private ["PSo8NSCoding", "numberOfItems"]
+- !private ["PSo8NSCoding", "prepare"]
+- !private ["PSo8NSCoding", "radius"]
+- !private ["PSo8NSCoding", "round"]
+- ["PSo8NSCoding", ""]
+- ["PSo9NSCopying", "CGPoint"]
+- !private ["PSo9NSCopying", "Int"]
+- !private ["PSo9NSCopying", "anchorPoint"]
+- !private ["PSo9NSCopying", "angle"]
+- !private ["PSo9NSCopying", "center"]
+- !private ["PSo9NSCopying", "copy"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "size"]
+- !private ["PSo9NSCopying", "transform"]
+- !private ["PSo9NSCopying", "zIndex"]
+- ["PSo9NSCopying", ""]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "CGFloat"]
+- ["CSo8NSObject", "CGPoint"]
+- ["CSo8NSObject", "CGRect"]
+- ["CSo8NSObject", "CGSize"]
+- ["CSo8NSObject", "CircularCollectionViewLayoutAttributes"]
+- ["CSo8NSObject", "IndexPath"]
+- !private ["CSo8NSObject", "Int"]
+- ["CSo8NSObject", "NSZone"]
+- ["CSo8NSObject", "Swift"]
+- ["CSo8NSObject", "UICollectionViewLayoutAttributes"]
+- ["CSo8NSObject", "anchorPoint"]
+- ["CSo8NSObject", "angle"]
+- ["CSo8NSObject", "angleAtExtreme"]
+- ["CSo8NSObject", "anglePerItem"]
+- ["CSo8NSObject", "anlge"]
+- !private ["CSo8NSObject", "atan"]
+- !private ["CSo8NSObject", "atan2"]
+- ["CSo8NSObject", "attributesList"]
+- !private ["CSo8NSObject", "bounds"]
+- !private ["CSo8NSObject", "ceil"]
+- !private ["CSo8NSObject", "center"]
+- !private ["CSo8NSObject", "collectionView"]
+- ["CSo8NSObject", "collectionViewContentSize"]
+- !private ["CSo8NSObject", "contentOffset"]
+- ["CSo8NSObject", "copy"]
+- !private ["CSo8NSObject", "floor"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "invalidateLayout"]
+- ["CSo8NSObject", "itemSize"]
+- ["CSo8NSObject", "layoutAttributesClass"]
+- ["CSo8NSObject", "layoutAttributesForElements"]
+- ["CSo8NSObject", "layoutAttributesForItem"]
+- !private ["CSo8NSObject", "min"]
+- !private ["CSo8NSObject", "numberOfItems"]
+- ["CSo8NSObject", "prepare"]
+- ["CSo8NSObject", "radius"]
+- !private ["CSo8NSObject", "round"]
+- ["CSo8NSObject", "shouldInvalidateLayout"]
+- !private ["CSo8NSObject", "size"]
+- ["CSo8NSObject", "targetContentOffset"]
+- !private ["CSo8NSObject", "transform"]
+- !private ["CSo8NSObject", "zIndex"]
+- !private ["PSo16NSObjectProtocol", "CGFloat"]
+- ["PSo16NSObjectProtocol", "CGPoint"]
+- ["PSo16NSObjectProtocol", "CGSize"]
+- ["PSo16NSObjectProtocol", "CircularCollectionViewLayoutAttributes"]
+- !private ["PSo16NSObjectProtocol", "IndexPath"]
+- !private ["PSo16NSObjectProtocol", "Int"]
+- !private ["PSo16NSObjectProtocol", "anchorPoint"]
+- !private ["PSo16NSObjectProtocol", "angle"]
+- !private ["PSo16NSObjectProtocol", "angleAtExtreme"]
+- !private ["PSo16NSObjectProtocol", "anglePerItem"]
+- !private ["PSo16NSObjectProtocol", "anlge"]
+- !private ["PSo16NSObjectProtocol", "atan"]
+- !private ["PSo16NSObjectProtocol", "atan2"]
+- !private ["PSo16NSObjectProtocol", "attributesList"]
+- !private ["PSo16NSObjectProtocol", "bounds"]
+- !private ["PSo16NSObjectProtocol", "ceil"]
+- !private ["PSo16NSObjectProtocol", "center"]
+- !private ["PSo16NSObjectProtocol", "collectionView"]
+- !private ["PSo16NSObjectProtocol", "collectionViewContentSize"]
+- !private ["PSo16NSObjectProtocol", "contentOffset"]
+- !private ["PSo16NSObjectProtocol", "copy"]
+- !private ["PSo16NSObjectProtocol", "floor"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "invalidateLayout"]
+- !private ["PSo16NSObjectProtocol", "itemSize"]
+- !private ["PSo16NSObjectProtocol", "min"]
+- !private ["PSo16NSObjectProtocol", "numberOfItems"]
+- !private ["PSo16NSObjectProtocol", "prepare"]
+- !private ["PSo16NSObjectProtocol", "radius"]
+- !private ["PSo16NSObjectProtocol", "round"]
+- !private ["PSo16NSObjectProtocol", "size"]
+- !private ["PSo16NSObjectProtocol", "transform"]
+- !private ["PSo16NSObjectProtocol", "zIndex"]
+- ["PSo16NSObjectProtocol", ""]
+- ["Ps22RandomAccessCollection", "init"]
+- !private ["Ps22RandomAccessCollection", "map"]
+- !private ["Ps22RandomAccessCollection", "row"]
+- !private ["Ps22RandomAccessCollection", "subscript"]
+- ["Ps26RangeReplaceableCollection", "init"]
+- !private ["Ps26RangeReplaceableCollection", "subscript"]
+- !private ["P10Foundation20ReferenceConvertible", "init"]
+- !private ["P10Foundation20ReferenceConvertible", "row"]
+- ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "map"]
+- !private ["Ps8Sequence", "row"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Ps13SignedInteger", "init"]
+- !private ["Ps12SignedNumber", "init"]
+- !private ["Ps10Strideable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "bounds"]
+- !private ["PSo29UIAccessibilityIdentification", "contentOffset"]
+- !private ["PSo29UIAccessibilityIdentification", "numberOfItems"]
+- !private ["PSo12UIAppearance", "bounds"]
+- !private ["PSo12UIAppearance", "contentOffset"]
+- !private ["PSo12UIAppearance", "numberOfItems"]
+- !private ["PSo21UIAppearanceContainer", "bounds"]
+- !private ["PSo21UIAppearanceContainer", "contentOffset"]
+- !private ["PSo21UIAppearanceContainer", "numberOfItems"]
+- !private ["CSo16UICollectionView", "bounds"]
+- !private ["CSo16UICollectionView", "contentOffset"]
+- !private ["CSo16UICollectionView", "numberOfItems"]
+- ["CSo22UICollectionViewLayout", "Bool"]
+- ["CSo22UICollectionViewLayout", "CGFloat"]
+- ["CSo22UICollectionViewLayout", "CGPoint"]
+- ["CSo22UICollectionViewLayout", "CGRect"]
+- ["CSo22UICollectionViewLayout", "CGSize"]
+- ["CSo22UICollectionViewLayout", "CircularCollectionViewLayoutAttributes"]
+- ["CSo22UICollectionViewLayout", "IndexPath"]
+- !private ["CSo22UICollectionViewLayout", "Int"]
+- ["CSo22UICollectionViewLayout", "Swift"]
+- ["CSo22UICollectionViewLayout", "UICollectionViewLayoutAttributes"]
+- ["CSo22UICollectionViewLayout", "angleAtExtreme"]
+- ["CSo22UICollectionViewLayout", "anglePerItem"]
+- ["CSo22UICollectionViewLayout", "anlge"]
+- !private ["CSo22UICollectionViewLayout", "atan"]
+- !private ["CSo22UICollectionViewLayout", "atan2"]
+- ["CSo22UICollectionViewLayout", "attributesList"]
+- !private ["CSo22UICollectionViewLayout", "ceil"]
+- !private ["CSo22UICollectionViewLayout", "collectionView"]
+- ["CSo22UICollectionViewLayout", "collectionViewContentSize"]
+- !private ["CSo22UICollectionViewLayout", "floor"]
+- ["CSo22UICollectionViewLayout", "init"]
+- !private ["CSo22UICollectionViewLayout", "invalidateLayout"]
+- ["CSo22UICollectionViewLayout", "itemSize"]
+- ["CSo22UICollectionViewLayout", "layoutAttributesClass"]
+- ["CSo22UICollectionViewLayout", "layoutAttributesForElements"]
+- ["CSo22UICollectionViewLayout", "layoutAttributesForItem"]
+- !private ["CSo22UICollectionViewLayout", "min"]
+- ["CSo22UICollectionViewLayout", "prepare"]
+- ["CSo22UICollectionViewLayout", "radius"]
+- !private ["CSo22UICollectionViewLayout", "round"]
+- ["CSo22UICollectionViewLayout", "shouldInvalidateLayout"]
+- ["CSo22UICollectionViewLayout", "targetContentOffset"]
+- ["CSo22UICollectionViewLayout", ""]
+- ["CSo32UICollectionViewLayoutAttributes", "CGFloat"]
+- ["CSo32UICollectionViewLayoutAttributes", "CGPoint"]
+- !private ["CSo32UICollectionViewLayoutAttributes", "CircularCollectionViewLayoutAttributes"]
+- !private ["CSo32UICollectionViewLayoutAttributes", "Int"]
+- ["CSo32UICollectionViewLayoutAttributes", "NSZone"]
+- ["CSo32UICollectionViewLayoutAttributes", "anchorPoint"]
+- ["CSo32UICollectionViewLayoutAttributes", "angle"]
+- !private ["CSo32UICollectionViewLayoutAttributes", "center"]
+- ["CSo32UICollectionViewLayoutAttributes", "copy"]
+- ["CSo32UICollectionViewLayoutAttributes", "init"]
+- !private ["CSo32UICollectionViewLayoutAttributes", "size"]
+- !private ["CSo32UICollectionViewLayoutAttributes", "transform"]
+- !private ["CSo32UICollectionViewLayoutAttributes", "zIndex"]
+- ["CSo32UICollectionViewLayoutAttributes", ""]
+- !private ["PSo17UICoordinateSpace", "bounds"]
+- !private ["PSo17UICoordinateSpace", "contentOffset"]
+- !private ["PSo17UICoordinateSpace", "numberOfItems"]
+- ["PSo13UIDynamicItem", "CGPoint"]
+- !private ["PSo13UIDynamicItem", "Int"]
+- !private ["PSo13UIDynamicItem", "anchorPoint"]
+- !private ["PSo13UIDynamicItem", "angle"]
+- !private ["PSo13UIDynamicItem", "bounds"]
+- !private ["PSo13UIDynamicItem", "center"]
+- !private ["PSo13UIDynamicItem", "contentOffset"]
+- !private ["PSo13UIDynamicItem", "copy"]
+- !private ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "numberOfItems"]
+- !private ["PSo13UIDynamicItem", "size"]
+- !private ["PSo13UIDynamicItem", "transform"]
+- !private ["PSo13UIDynamicItem", "zIndex"]
+- ["PSo13UIDynamicItem", ""]
+- !private ["PSo18UIFocusEnvironment", "bounds"]
+- !private ["PSo18UIFocusEnvironment", "contentOffset"]
+- !private ["PSo18UIFocusEnvironment", "numberOfItems"]
+- !private ["PSo11UIFocusItem", "bounds"]
+- !private ["PSo11UIFocusItem", "contentOffset"]
+- !private ["PSo11UIFocusItem", "numberOfItems"]
+- !private ["CSo11UIResponder", "bounds"]
+- !private ["CSo11UIResponder", "contentOffset"]
+- !private ["CSo11UIResponder", "numberOfItems"]
+- !private ["PSo30UIResponderStandardEditActions", "bounds"]
+- !private ["PSo30UIResponderStandardEditActions", "contentOffset"]
+- !private ["PSo30UIResponderStandardEditActions", "numberOfItems"]
+- !private ["CSo12UIScrollView", "bounds"]
+- !private ["CSo12UIScrollView", "contentOffset"]
+- !private ["CSo12UIScrollView", "numberOfItems"]
+- !private ["PSo18UITraitEnvironment", "bounds"]
+- !private ["PSo18UITraitEnvironment", "contentOffset"]
+- !private ["PSo18UITraitEnvironment", "numberOfItems"]
+- !private ["CSo6UIView", "bounds"]
+- !private ["CSo6UIView", "contentOffset"]
+- !private ["CSo6UIView", "numberOfItems"]
+- ["Ps14_ArrayProtocol", "init"]
+- !private ["Ps14_ArrayProtocol", "subscript"]
+- ["Ps23_BidirectionalIndexable", "init"]
+- !private ["Ps23_BidirectionalIndexable", "map"]
+- !private ["Ps23_BidirectionalIndexable", "row"]
+- !private ["Ps23_BidirectionalIndexable", "subscript"]
+- !private ["Ps15_CVarArgAligned", "init"]
+- !private ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "bounds"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "contentOffset"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "numberOfItems"]
+- ["Ps24_DestructorSafeContainer", "init"]
+- !private ["Ps24_DestructorSafeContainer", "subscript"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps9_Hashable", "CGFloat"]
+- ["Ps9_Hashable", "CGPoint"]
+- ["Ps9_Hashable", "CGSize"]
+- ["Ps9_Hashable", "CircularCollectionViewLayoutAttributes"]
+- !private ["Ps9_Hashable", "IndexPath"]
+- !private ["Ps9_Hashable", "Int"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "anchorPoint"]
+- !private ["Ps9_Hashable", "angle"]
+- !private ["Ps9_Hashable", "angleAtExtreme"]
+- !private ["Ps9_Hashable", "anglePerItem"]
+- !private ["Ps9_Hashable", "anlge"]
+- !private ["Ps9_Hashable", "atan"]
+- !private ["Ps9_Hashable", "atan2"]
+- !private ["Ps9_Hashable", "attributesList"]
+- !private ["Ps9_Hashable", "bounds"]
+- !private ["Ps9_Hashable", "ceil"]
+- !private ["Ps9_Hashable", "center"]
+- !private ["Ps9_Hashable", "collectionView"]
+- !private ["Ps9_Hashable", "collectionViewContentSize"]
+- !private ["Ps9_Hashable", "contentOffset"]
+- !private ["Ps9_Hashable", "copy"]
+- !private ["Ps9_Hashable", "floor"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "invalidateLayout"]
+- !private ["Ps9_Hashable", "itemSize"]
+- !private ["Ps9_Hashable", "min"]
+- !private ["Ps9_Hashable", "numberOfItems"]
+- !private ["Ps9_Hashable", "prepare"]
+- !private ["Ps9_Hashable", "radius"]
+- !private ["Ps9_Hashable", "round"]
+- !private ["Ps9_Hashable", "row"]
+- !private ["Ps9_Hashable", "size"]
+- !private ["Ps9_Hashable", "transform"]
+- !private ["Ps9_Hashable", "zIndex"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "init"]
+- ["Ps10_Indexable", "init"]
+- !private ["Ps10_Indexable", "map"]
+- !private ["Ps10_Indexable", "row"]
+- !private ["Ps10_Indexable", "subscript"]
+- ["Ps14_IndexableBase", "init"]
+- !private ["Ps14_IndexableBase", "map"]
+- !private ["Ps14_IndexableBase", "row"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- !private ["Ps8_Integer", "init"]
+- !private ["Ps18_IntegerArithmetic", "init"]
+- ["Ps17_MutableIndexable", "init"]
+- !private ["Ps17_MutableIndexable", "row"]
+- !private ["Ps17_MutableIndexable", "subscript"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "height"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "midY"]
+- !private ["Ps21_ObjectiveCBridgeable", "rotated"]
+- !private ["Ps21_ObjectiveCBridgeable", "row"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps21_ObjectiveCBridgeable", "width"]
+- !private ["Ps21_ObjectiveCBridgeable", "x"]
+- ["Ps22_RandomAccessIndexable", "init"]
+- !private ["Ps22_RandomAccessIndexable", "map"]
+- !private ["Ps22_RandomAccessIndexable", "row"]
+- !private ["Ps22_RandomAccessIndexable", "subscript"]
+- ["Ps26_RangeReplaceableIndexable", "init"]
+- !private ["Ps26_RangeReplaceableIndexable", "subscript"]
+- !private ["Ps14_SignedInteger", "init"]
+- !private ["Ps11_Strideable", "init"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- "Ps9AnyObject"
+- "Sa"
+- "Ps23BidirectionalCollection"
+- !private "Ps19BinaryFloatingPoint"
+- !private "Ps17BitwiseOperations"
+- !private "Sb"
+- !private "PSo15CALayerDelegate"
+- !private "VSC17CGAffineTransform"
+- !private "V12CoreGraphics7CGFloat"
+- "VSC7CGPoint"
+- !private "VSC6CGRect"
+- "VSC6CGSize"
+- "Ps7CVarArg"
+- "C22CircularCollectionView28CircularCollectionViewLayout"
+- "C22CircularCollectionView38CircularCollectionViewLayoutAttributes"
+- !private "Vs11ClosedRange"
+- "Ps10Collection"
+- !private "Ps10Comparable"
+- !private "Vs20CountableClosedRange"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps13FloatingPoint"
+- "Ps8Hashable"
+- !private "V10Foundation9IndexPath"
+- !private "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- "Ps17MutableCollection"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "Ps22RandomAccessCollection"
+- "Ps26RangeReplaceableCollection"
+- !private "P10Foundation20ReferenceConvertible"
+- "Ps8Sequence"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- !private "CSo16UICollectionView"
+- "CSo22UICollectionViewLayout"
+- "CSo32UICollectionViewLayoutAttributes"
+- !private "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "CSo11UIResponder"
+- !private "PSo30UIResponderStandardEditActions"
+- !private "CSo12UIScrollView"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "Ps14_ArrayProtocol"
+- "Ps23_BidirectionalIndexable"
+- !private "Ps15_CVarArgAligned"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- "Ps10_Indexable"
+- "Ps14_IndexableBase"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- "Ps17_MutableIndexable"
+- "Ps21_ObjectiveCBridgeable"
+- "Ps22_RandomAccessIndexable"
+- "Ps26_RangeReplaceableIndexable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "95f658ff263f5b230842ce0945551247"

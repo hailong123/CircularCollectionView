@@ -1,0 +1,7 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.48 clang-802.0.38)"
+options: "6445736f587c6fa6dfc3cde51aa0fef0"
+build_time: [547712144, 588458000]
+inputs:
+  "/Users/a123456/Downloads/CircularCollectionView-Starter/CircularCollectionView/CollectionViewController.swift": [486483137, 0]
+  "/Users/a123456/Downloads/CircularCollectionView-Starter/CircularCollectionView/CircularCollectionViewCell.swift": [486419880, 0]
+  "/Users/a123456/Downloads/CircularCollectionView-Starter/CircularCollectionView/AppDelegate.swift": [486483112, 0]

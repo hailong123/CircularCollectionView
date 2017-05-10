@@ -1,0 +1,44 @@
+[
+ {
+  "file": "/Users/a123456/Downloads/CircularCollectionView-Starter/CircularCollectionView/AppDelegate.swift",
+  "offset": 297,
+  "text": "_ ",
+ },
+ {
+  "file": "/Users/a123456/Downloads/CircularCollectionView-Starter/CircularCollectionView/AppDelegate.swift",
+  "offset": 371,
+  "remove": 8,
+  "text": "UIApplicationLaunchOptionsKey",
+ },
+ {
+  "file": "/Users/a123456/Downloads/CircularCollectionView-Starter/CircularCollectionView/AppDelegate.swift",
+  "offset": 383,
+  "remove": 7,
+  "text": "y",
+ },
+ {
+  "file": "/Users/a123456/Downloads/CircularCollectionView-Starter/CircularCollectionView/AppDelegate.swift",
+  "offset": 528,
+  "text": "_ ",
+ },
+ {
+  "file": "/Users/a123456/Downloads/CircularCollectionView-Starter/CircularCollectionView/AppDelegate.swift",
+  "offset": 1036,
+  "text": "_ ",
+ },
+ {
+  "file": "/Users/a123456/Downloads/CircularCollectionView-Starter/CircularCollectionView/AppDelegate.swift",
+  "offset": 1464,
+  "text": "_ ",
+ },
+ {
+  "file": "/Users/a123456/Downloads/CircularCollectionView-Starter/CircularCollectionView/AppDelegate.swift",
+  "offset": 1689,
+  "text": "_ ",
+ },
+ {
+  "file": "/Users/a123456/Downloads/CircularCollectionView-Starter/CircularCollectionView/AppDelegate.swift",
+  "offset": 1949,
+  "text": "_ ",
+ }
+]
